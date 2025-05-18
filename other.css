@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #FCCB06;
+}
+body::selection {
+  color: black;
+  background-color: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #272727;
+  color: white;
+  text-align: center;
+  margin: 0;
+  cursor: crosshair
+}
+
+.topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CA2C92;
+}
+
+.topnav li {
+  float: left;
+}
+
+.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav li a.active {
+  background-color: #FCCB06;
+  color: #000;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the columns */
+  margin: 0 -10px; /* Adjust for padding */
+}
+
+.column {
+  flex: 1 1 30%; /* Adjusts the width of the columns */
+  margin: 10px; /* Space between columns */
+  text-align: center;
+  color: #B1DDF1;
+}
+
+.no {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 400px; /* Set a max height for images */
+}
+
+.column iframe {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+}
+
+h2 {
+  color: #CA2C92;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+
+.g1 {
+  float: left;
+  width: 100%;
+  height: auto;
+  max-height: 630px;
+}

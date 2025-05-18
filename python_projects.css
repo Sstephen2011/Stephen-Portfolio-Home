@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+h1 {
+  color: #FCCB06;
+}
+
+body::selection {
+  color: black;
+  background-color: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #272727;
+  color: white;
+  text-align: center;
+  margin: 0;
+  cursor: crosshair
+}
+
+#caption {
+  color: #B1DDF1
+}
+
+a {
+  color: #B1DDF1;
+  font-weight: bold;
+}
+
+h2 {
+  color: orange;
+}
+
+p {
+  color: #B1DDF1;
+}
